@@ -757,7 +757,7 @@ input[type="text"]::placeholder,
     }
 
     input[type="text"] {
-        width: 459px;
+        width: 400px;
     }
 
     .select-box select {
@@ -801,9 +801,6 @@ input[type="text"]::placeholder,
         --bs-gutter-y: 30px;
     }
 
-    .list {
-        padding-left: 60px;
-    }
 }
 
 @media(max-width:480px) {
@@ -814,17 +811,14 @@ input[type="text"]::placeholder,
     }
 
     .footer-img {
-        text-align: center;
+        text-align: left;
         padding-bottom: 20px;
     }
 
     .footer-column-two {
-        justify-content: center;
+        justify-content: start;
     }
 
-    .list {
-        padding-left: 43px;
-    }
 }
 
 @media (max-width: 360px) {
