@@ -757,7 +757,7 @@ input[type="text"]::placeholder,
     }
 
     input[type="text"] {
-        width: 400px;
+        width: 375px;
     }
 
     .select-box select {
