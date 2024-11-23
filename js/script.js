@@ -119,3 +119,31 @@ $(document).ready(function () {
 $(".navbar-toggler").on('click', function () {
 	$('body').toggleClass("body-fixed");
 })
+
+
+
+// for inner page
+
+$(document).ready(function () {
+	$(".column-two").slice(0, 4).show();
+	$("#view-more").on("click", function (e) {
+		e.preventDefault();
+		$(".column-two:hidden").slice(0, 4).slideDown();
+		if ($(".column-two:hidden").length == 0) {
+			$("#view-more").css('visibility', 'hidden');
+		}
+	});
+
+})
+
+// fixed header
+
+$(window).scroll(function () {
+	var scroll = $(window).scrollTop();
+	if (scroll > 200) {
+	  $(".page-header").addClass("fixed");
+	}
+	else {
+	  $(".page-header").removeClass("fixed");
+	}
+  })
