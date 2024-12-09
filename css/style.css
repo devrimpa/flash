@@ -854,7 +854,6 @@ input[type="text"]::placeholder,
 .username-inner,
 .password {
     width: 100%;
-    max-width: 80%;
     display: flex;
     flex-wrap: wrap;
     padding: 10px 30px;
@@ -888,7 +887,7 @@ input[type="text"]::placeholder,
 
 .remenber-me-wrap {
     display: flex;
-    padding: 20px 0 0 30px;
+    padding: 20px 30px 0;
     justify-content: space-between;
 }
 
@@ -906,8 +905,7 @@ input[type="text"]::placeholder,
 }
 
 .sign-btn {
-    width: 75%;
-    padding: 50px 0 0 30px;
+    padding: 50px 30px 0;
 }
 
 .sign-btn input {
